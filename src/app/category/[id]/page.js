@@ -173,8 +173,8 @@ export default function CategoryDetailPage({ params }) {
 
   return (
     <>
-      <SchemaData schema={collectionSchema} />
-      <SchemaData schema={breadcrumbSchema} />
+      {/* <SchemaData schema={collectionSchema} />
+      <SchemaData schema={breadcrumbSchema} /> */}
       <DefaultLayout>
         <CategoryProductsServerWrapper categoryId={categoryId} />
       </DefaultLayout>

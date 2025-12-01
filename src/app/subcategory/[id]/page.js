@@ -218,8 +218,8 @@ export default async function SubCategoryPage({ params }) {
 
   return (
     <>
-      <SchemaData schema={collectionSchema} />
-      <SchemaData schema={breadcrumbSchema} />
+      {/* <SchemaData schema={collectionSchema} /> */}
+      {/* <SchemaData schema={breadcrumbSchema} /> */}
       <DefaultLayout>
         <CategoryProductsServerWrapper categoryId={categoryId} subCategoryId={subCategoryId} />
       </DefaultLayout>

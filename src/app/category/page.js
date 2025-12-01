@@ -50,9 +50,9 @@ export default function CategoryPage() {
   return (
     <>
       {/* CollectionPage Schema: Identifies this as a product collection page */}
-      <SchemaData schema={collectionSchema} />
+      {/* <SchemaData schema={collectionSchema} /> */}
       {/* Breadcrumb Schema: Shows navigation path */}
-      <SchemaData schema={breadcrumbSchema} />
+      {/* <SchemaData schema={breadcrumbSchema} /> */}
       <DefaultLayout>
         <CategoryProductsServerWrapper />
       </DefaultLayout>
