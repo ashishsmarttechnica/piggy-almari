@@ -13,6 +13,7 @@
 export default function SchemaData({ schema }) {
   if (!schema) return null;
 
+  
   try {
     // Validate and stringify schema safely
     const schemaString = JSON.stringify(schema);
