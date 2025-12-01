@@ -1,6 +1,6 @@
 import DefaultLayout from "@/Layout/DefaultLayout";
 import ProductDetailsServerWrapper from "@/Components/ProductDetails/ProductDetailsServerWrapper";
-import SchemaData from "@/components/SchemaData";
+import SchemaData from "@/Components/SchemaData";
 import { getProductSchema, getBreadcrumbSchema } from "@/lib/schema";
 import { getCanonicalBaseUrl } from "@/lib/canonical";
 
@@ -376,8 +376,8 @@ export default async function PostPage({ params }) {
 
   return (
     <>
-      {/* {breadcrumbSchema && <SchemaData schema={breadcrumbSchema} />}
-      {productData?.post && <SchemaData schema={getProductSchema(productData.post)} />} */}
+      {breadcrumbSchema && <SchemaData schema={breadcrumbSchema} />}
+      {productData?.post && <SchemaData schema={getProductSchema(productData.post)} />}
       <DefaultLayout>
         <ProductDetailsServerWrapper productTitle={productTitleParam} initialData={productData} />
       </DefaultLayout>

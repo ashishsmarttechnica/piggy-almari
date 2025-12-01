@@ -1,7 +1,7 @@
 import Hero from "@/Components/Hero/Hero";
 import SectionListServer from "@/Components/Home/SectionListServer";
 import DefaultLayout from "@/Layout/DefaultLayout";
-import SchemaData from "@/components/SchemaData";
+import SchemaData from "@/Components/SchemaData";
 import { getOrganizationSchema, getWebsiteSchema } from "@/lib/schema";
 import { getCanonicalBaseUrl } from "@/lib/canonical";
 
@@ -48,9 +48,9 @@ export default function Home() {
   return (
     <>
       {/* Organization Schema: Identifies business entity to search engines */}
-      {/* <SchemaData schema={getOrganizationSchema()} /> */}
+      <SchemaData schema={getOrganizationSchema()} />
       {/* Website Schema: Defines website structure and search functionality */}
-      {/* <SchemaData schema={getWebsiteSchema()} /> */}
+      <SchemaData schema={getWebsiteSchema()} />
       <DefaultLayout>
         <Hero />
         <SectionListServer />

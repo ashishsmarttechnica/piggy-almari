@@ -1,6 +1,6 @@
 import DefaultLayout from "@/Layout/DefaultLayout";
 import CategoryProductsServerWrapper from "@/Components/CategoryProducts/CategoryProductsServerWrapper";
-import SchemaData from "@/components/SchemaData";
+import SchemaData from "@/Components/SchemaData";
 import { getCollectionPageSchema, getBreadcrumbSchema } from "@/lib/schema";
 import { getCanonicalBaseUrl } from "@/lib/canonical";
 import { fetchCategoryPosts } from "@/api/categoryPosts.api";
@@ -173,8 +173,8 @@ export default function CategoryDetailPage({ params }) {
 
   return (
     <>
-      {/* <SchemaData schema={collectionSchema} />
-      <SchemaData schema={breadcrumbSchema} /> */}
+      <SchemaData schema={collectionSchema} />
+      <SchemaData schema={breadcrumbSchema} />
       <DefaultLayout>
         <CategoryProductsServerWrapper categoryId={categoryId} />
       </DefaultLayout>

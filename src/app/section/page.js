@@ -162,9 +162,9 @@ export default function SectionPage() {
   return (
     <>
       {/* CollectionPage Schema: Identifies this as a curated section/collection */}
-      {/* <SchemaData schema={collectionSchema} /> */}
+      <SchemaData schema={collectionSchema} />
       {/* Breadcrumb Schema: Shows navigation path */}
-      {/* <SchemaData schema={breadcrumbSchema} /> */}
+      <SchemaData schema={breadcrumbSchema} />
       <DefaultLayout>
         <ProductListServerWrapper />
       </DefaultLayout>
