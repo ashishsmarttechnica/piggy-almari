@@ -1,0 +1,41 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "cross-env NEXT_STATIC_EXPORT=false next build",
+    "start": "cross-env NEXT_STATIC_EXPORT=false next start",
+    "export": "cross-env NEXT_STATIC_EXPORT=true next build",
+    "build:static": "cross-env NEXT_STATIC_EXPORT=true next build",
+    "build:server": "cross-env NEXT_STATIC_EXPORT=false next build",
+    "start:server": "cross-env NEXT_STATIC_EXPORT=false next start"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.9",
+    "@tanstack/react-query": "^5.90.2",
+    "@tanstack/react-query-devtools": "^5.90.2",
+    "axios": "^1.12.2",
+    "date": "^2.0.6",
+    "framer-motion": "^12.23.22",
+    "jspdf": "^3.0.3",
+    "next": "15.5.3",
+    "next-intl": "^4.3.9",
+    "next-sitemap": "^4.2.3",
+    "react": "19.1.0",
+    "react-datepicker": "^8.7.0",
+    "react-dom": "19.1.0",
+    "react-icons": "^5.5.0",
+    "react-toastify": "^11.0.5",
+    "rsuite": "^5.83.3",
+    "swiper": "^12.0.3",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "cross-env": "^10.1.0",
+    "eslint": "^9.39.1",
+    "serve": "^14.2.5",
+    "tailwindcss": "^4"
+  }
+}

@@ -1,0 +1,22 @@
+/* Theme Color Variables */
+:root {
+  /* Brand Colors */
+  --color-light-gray: #EAEAEA;
+  --color-dark-gray: #313131;
+  --color-black: #000000;
+  --color-main: #A89B7B; /* Main brand color - beige/gold */
+  --color-white: #FFFFFF;
+
+  /* Background Colors */
+  --bg-light: #EAEAEA;
+  --bg-dark: #313131;
+  --bg-black: #000000;
+  --bg-main: #A89B7B;
+  --bg-white: #FFFFFF;
+  /* Text Colors */
+  --text-light: #EAEAEA;
+  --text-dark: #313131;
+  --text-black: #000000;
+  --text-main: #A89B7B;
+  --text-white: #FFFFFF;
+}
